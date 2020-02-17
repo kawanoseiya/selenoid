@@ -1,6 +1,5 @@
 .idea
 *.iml
-selenoid
 selenoid.exe
 coverage.*
 .DS_Store
