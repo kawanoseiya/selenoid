@@ -1,0 +1,29 @@
+{
+    "chrome": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": "selenoid/vnc:chrome_75.0",
+                "port": "4444"
+            }
+        }
+    },
+    "chrome-mobile": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": "selenoid/chrome-mobile:75.0",
+                "port": "4444"
+            }
+        }
+    },
+    "android": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": "selenoid/android:8.1",
+                "port": "4444"
+            }
+        }
+    }
+}
